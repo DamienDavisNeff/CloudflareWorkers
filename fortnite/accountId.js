@@ -1,3 +1,6 @@
+// THIS USES A KV NAMESPACE
+// It is called "account-id"
+
 addEventListener('fetch', (event) => {
   event.respondWith(HandleRequest(event.request));
 });
